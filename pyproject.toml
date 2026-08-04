@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slope-and-elevation-extractor"
+version = "0.1.0"
+description = "Extract slope and elevation from Google Earth Engine using CSV coordinates."
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+  { name = "Rohan Mansingh" }
+]
+
+dependencies = [
+  "earthengine-api",
+  "pandas"
+]
+
+[tool.setuptools.packages.find]
+include = ["slope_and_elevation_extractor"]
