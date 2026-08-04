@@ -1,7 +1,0 @@
-{
-  "name": "slope-and-elevation-extractor",
-  "version": "1.0.0",
-  "description": "Extract elevation and slope from Google Earth Engine.",
-  "main": "index.js",
-  "license": "MIT"
-}
